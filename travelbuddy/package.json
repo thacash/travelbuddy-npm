@@ -1,0 +1,14 @@
+{
+    "name": "@garman000/travelbuddy",
+    "version": "2.0.0",
+    "description": "a small package calculator",
+    "license": "MIT",
+    "repository": "garman000/travelbuddy",
+    "main": "index.js",
+    "keywords": [
+        "travel",
+        "npm",
+        "calculator",
+        "package"
+    ]
+}
