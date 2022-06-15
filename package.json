@@ -3,7 +3,7 @@
     "version": "2.0.0",
     "description": "a small package calculator",
     "license": "MIT",
-    "repository": "garman000/travelbuddy",
+    "repository": "thacash/travelbuddy",
     "main": "index.js",
     "keywords": [
         "travel",
