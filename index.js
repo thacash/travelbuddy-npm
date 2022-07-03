@@ -1,14 +1,12 @@
 module.exports = {
-  tiny: function (string) {
-    if (typeof string !== "string") throw new TypeError("Tiny wants a string!");
-    return string.replace(/\s/g, "");
-  
+  calculateTilEvent: function days(eventStartDate, todaysDate) {
+    let difference = eventStartDate - todaysDate;
+    let TotalDays = Math.ceil(difference / (1000 * 3600 * 24));
+    return TotalDays;
+
   },
 
-  travel2: function(){
-    console.log("travel2")
-  },
-  createData: function formatDate(date1) {
+    createData: function formatDate(date1) {
     let date = new Date(date1),
       month = "" + (date.getMonth() + 1),
       day = "" + date.getDate(),
@@ -20,7 +18,10 @@ module.exports = {
     let formatedYear = year.slice(2, 4);
 
     return [formatedYear, month, day].join("");
-  }}
+  }};
 
 
+
+  
+  
   
