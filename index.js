@@ -1,3 +1,5 @@
+import airportList from "./airportList"
+
 module.exports = {
   calculateTilEvent: function days(eventStartDate, todaysDate) {
     let difference = eventStartDate - todaysDate;
@@ -18,8 +20,12 @@ module.exports = {
     let formatedYear = year.slice(2, 4);
 
     return [formatedYear, month, day].join("");
-  }};
+  },
 
+  airportList: airportList,
+};
+ 
+  
 
 
   
